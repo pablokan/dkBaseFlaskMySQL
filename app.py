@@ -26,7 +26,7 @@ def colors() -> List[Dict]:
 
 @app.route('/')
 def index() -> str:
-    return json.dumps({'colorines': colors()})
+    return json.dumps({'gustos': colors()})
 
 
 if __name__ == '__main__':
